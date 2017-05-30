@@ -10,5 +10,5 @@
 - Run webpack in production mode `webpack ./src/app.js ./dist/bundle.js -p`
 - Run webpack in watch mode `webpack ./src/app.js ./dist/bundle.js --watch`
 - Webpack.config.js exports an object to specified how we want to run webpack
-- Add a script `script: webpack -d --watch` in package.json
-- Run webpack with `npm run dev`  
+- Add a dev-mode script `script: webpack -d --watch` in package.json
+- Run webpack in development mode with `npm run dev`  
